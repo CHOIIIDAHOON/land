@@ -1,6 +1,4 @@
-# crawl_naver_land
-
-네이버 부동산(land.naver.com) 정보를 조회해 SQLite DB로 저장하는 크롤러입니다.
+# crawl_
 
 ## 설치
 
