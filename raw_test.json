@@ -1,0 +1,4358 @@
+{
+  "summary": {
+    "complex_metadata_count": 18
+  },
+  "complexes": {
+    "13814": {
+      "name": "역삼래미안",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "757",
+        "roadName": "선릉로69길 19",
+        "zipCode": "06218"
+      },
+      "coordinates": {
+        "xCoordinate": 127.050397,
+        "yCoordinate": 37.497838
+      },
+      "totalHouseholdNumber": 1050,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 12,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "삼성물산(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 276,
+        "buildingCoverageRatio": 18
+      },
+      "useApprovalDate": "20051026",
+      "approvalElapsedYear": 21,
+      "parkingInfo": {
+        "totalParkingCount": 1066,
+        "parkingCountPerHousehold": 1.01
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-539-3003",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": true,
+      "highestDongFloor": 22,
+      "lowestDongFloor": 12,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "80A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_299/land_naver_1607165667425xTt82_JPEG/138141202010142347275844391205195427276000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_188/land_naver_1607165667129Di0e7_JPEG/138141202010142347273043291205195426991000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_171/hscp_img_1332308584923V7bNG_JPEG/GW70765_1332308583566.jpg"
+              ]
+            }
+          },
+          "supplyArea": 80.66,
+          "contractArea": 111.85,
+          "exclusiveArea": 59.4,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 440,
+          "householdCount": 440,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "80C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20120321_171/hscp_img_1332308591719eCyD2_JPEG/GW70765_1332308590263.jpg"
+              ]
+            }
+          },
+          "supplyArea": 80.89,
+          "contractArea": 112.15,
+          "exclusiveArea": 59.53,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 188,
+          "householdCount": 188,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "81D",
+          "nameType": "D",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_174/land_naver_1607165668084MLRov_JPEG/138144202010142347281003661205195427944000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_29/land_naver_16071656677574RvIl_JPEG/138144202010142347278444441205195427611000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_241/hscp_img_1332308602453utldo_JPEG/GW70765_1332308601224.jpg"
+              ]
+            }
+          },
+          "supplyArea": 81.24,
+          "contractArea": 112.61,
+          "exclusiveArea": 59.73,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 72,
+          "householdCount": 72,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "81B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20120223_8/hscp_img_1329988665023jCxhO_JPEG/GW70765_1329988660483.jpg"
+              ]
+            }
+          },
+          "supplyArea": 81.4,
+          "contractArea": 112.72,
+          "exclusiveArea": 59.65,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 22,
+          "householdCount": 22,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "109",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_73/land_naver_16071656687861pi17_JPEG/138145202010142347284482851205195428638000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_52/land_naver_1607165668433hRDvY_JPEG/138145202010142347282675101205195428291000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_107/hscp_img_1332308610293YOPaa_JPEG/GW70765_1332308609103.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.4,
+          "contractArea": 151.86,
+          "exclusiveArea": 80.87,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 328,
+          "householdCount": 328,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "13813": {
+      "name": "역삼e-편한세상",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "755-4",
+        "roadName": "선릉로69길 20",
+        "zipCode": "06217"
+      },
+      "coordinates": {
+        "xCoordinate": 127.049324,
+        "yCoordinate": 37.498632
+      },
+      "totalHouseholdNumber": 840,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 12,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "대림산업(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 282,
+        "buildingCoverageRatio": 19
+      },
+      "useApprovalDate": "20051216",
+      "approvalElapsedYear": 21,
+      "parkingInfo": {
+        "totalParkingCount": 852,
+        "parkingCountPerHousehold": 1.01
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-565-2911",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 25,
+      "lowestDongFloor": 15,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "79A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_84/land_naver_1607165664559faTVB_JPEG/138131202010142347256924071205195424413000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_271/land_naver_1607165664199KsXxj_JPEG/13813120201014234725469386120519542451000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_40/hscp_img_1332308428351Aiqam_JPEG/GW70765_1332308427358.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.52,
+          "contractArea": 121.31,
+          "exclusiveArea": 59.6,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 449,
+          "householdCount": 449,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "81B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_129/land_naver_1607165665273aQkT3_JPEG/138132202010142347262283231205195425125000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_275/land_naver_1607165664941berfv_JPEG/138132202010142347259443581205195424800000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_110/hscp_img_1332308435800pni7m_JPEG/GW70765_1332308434189.jpg"
+              ]
+            }
+          },
+          "supplyArea": 81.07,
+          "contractArea": 123.1,
+          "exclusiveArea": 59.94,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 64,
+          "householdCount": 64,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "106B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_68/land_naver_160716566670493KAl_JPEG/138134202010142347270803071205195426557000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_146/land_naver_1607165666356DB2mc_JPEG/138134202010142347268654651205195426207000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_24/hscp_img_1332308444914Bn6Xz_JPEG/GW70765_1332308443590.jpg"
+              ]
+            }
+          },
+          "supplyArea": 106.62,
+          "contractArea": 166.22,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 308,
+          "householdCount": 308,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "108A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_277/land_naver_1607165665954ARK4F_JPEG/138133202010142347266544251205195425805000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_203/land_naver_1607165665630bUyfl_JPEG/138133202010142347263891751205195425484000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_129/hscp_img_13323084550923dxe0_JPEG/GW70765_1332308453442.jpg"
+              ]
+            }
+          },
+          "supplyArea": 108.2,
+          "contractArea": 167.57,
+          "exclusiveArea": 84.67,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 19,
+          "householdCount": 19,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "14142": {
+      "name": "역삼푸르지오",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "754-1",
+        "roadName": "언주로 332",
+        "zipCode": "06216"
+      },
+      "coordinates": {
+        "xCoordinate": 127.047479,
+        "yCoordinate": 37.497966
+      },
+      "totalHouseholdNumber": 738,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 11,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)대우건설",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 283,
+        "buildingCoverageRatio": 20
+      },
+      "useApprovalDate": "20060102",
+      "approvalElapsedYear": 21,
+      "parkingInfo": {
+        "totalParkingCount": 753,
+        "parkingCountPerHousehold": 1.02
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-563-2217",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 24,
+      "lowestDongFloor": 15,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "79",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_270/land_naver_1607245114992E5Dsv_JPEG/141421202011041650360893221206175834787000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_222/land_naver_1607245114511laGEY_JPEG/141421202011041650359013831206175834329000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_270/hscp_img_1332309117366jmU1c_JPEG/GW70765_1332309116257.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.41,
+          "contractArea": 115.06,
+          "exclusiveArea": 59.88,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 376,
+          "householdCount": 376,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "104",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210512_68/land_naver_1620807329897mPGfw_JPEG/141423202105121715293677120512171529751000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210512_236/land_naver_1620807330692bXIBW_JPEG/141423202105121715301615850512171530530000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_63/land_system_1327380744489CdcFH_JPEG/116_14142_3_105_1270690523427.jpg"
+              ]
+            }
+          },
+          "supplyArea": 104.4,
+          "contractArea": 154.96,
+          "exclusiveArea": 84.9,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 362,
+          "householdCount": 362,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "17805": {
+      "name": "역삼IPARK",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "713-11",
+        "roadName": "역삼로 307",
+        "zipCode": "06215"
+      },
+      "coordinates": {
+        "xCoordinate": 127.047061,
+        "yCoordinate": 37.499604
+      },
+      "totalHouseholdNumber": 541,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 7,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "현대산업개발",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 273,
+        "buildingCoverageRatio": 16
+      },
+      "useApprovalDate": "20060928",
+      "approvalElapsedYear": 20,
+      "parkingInfo": {
+        "totalParkingCount": 914,
+        "parkingCountPerHousehold": 1.68
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-567-6910",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 21,
+      "lowestDongFloor": 12,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "36",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_17/land_naver_16071726143360XBX3_JPEG/178051202010150019462032541205215014197000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_175/land_naver_1607172614022JUIUP_JPEG/178051202010150019458972121205215013878000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_272/land_system_1327400517218pIbbI_JPEG/116_17805_1_33_GA1_1283146540466.jpg"
+              ]
+            }
+          },
+          "supplyArea": 36.27,
+          "contractArea": 60.42,
+          "exclusiveArea": 28.24,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 178,
+          "householdCount": 178,
+          "entranceType": "30",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "145",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_194/land_naver_1607172969621Bp3pX_JPEG/178052202010150019467149731205215609472000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_272/land_naver_1607172969244Om5fQ_JPEG/17805220201015001946397587120521560997000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_286/land_system_1327400519107G38D6_JPEG/116_17805_2_145_GA1_1283146597519.jpg"
+              ]
+            }
+          },
+          "supplyArea": 145.61,
+          "contractArea": 245.05,
+          "exclusiveArea": 116.28,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 144,
+          "householdCount": 144,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "162A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_102/land_naver_1607172970321Mf2Hy_JPEG/178053202010150019472852981205215610171000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_46/land_naver_1607172969940SAI1z_JPEG/178053202010150019469942711205215609801000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_91/land_system_1327400521049r5Abi_JPEG/116_17805_3_161A_GA1_1283146748547.jpg"
+              ]
+            }
+          },
+          "supplyArea": 162.52,
+          "contractArea": 273.82,
+          "exclusiveArea": 130.15,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 32,
+          "householdCount": 32,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "162B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_280/land_naver_1607172995547zkUIp_JPEG/178054202010150019477581201205215635393000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_66/land_naver_1607172970653lp4RO_JPEG/178054202010150019474859811205215610514000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_285/land_system_1327400522925m6otV_JPEG/116_17805_4_161B_GA1_1283146817756.jpg"
+              ]
+            }
+          },
+          "supplyArea": 162.62,
+          "contractArea": 273.91,
+          "exclusiveArea": 130.14,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 32,
+          "householdCount": 32,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "164C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_137/land_naver_1607173080692oxCUq_JPEG/178055202010150019483692861205215800538000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_157/land_naver_1607172995969gCUrr_JPEG/178055202010150019480735191205215635822000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_276/land_system_1327400525096mRmjL_JPEG/116_17805_5_161C_GA1_1283146885527.jpg"
+              ]
+            }
+          },
+          "supplyArea": 164.8,
+          "contractArea": 277.14,
+          "exclusiveArea": 131.38,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 32,
+          "householdCount": 32,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "179A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_165/land_naver_160717308138949wKE_JPEG/178056202010150019488974281205215801228000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_137/land_naver_1607173081047Cz7aD_JPEG/178056202010150019486714681205215800899000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_251/land_system_1327400527343odKCv_JPEG/116_17805_6_178A_GA1_1283146986737.jpg"
+              ]
+            }
+          },
+          "supplyArea": 179.7,
+          "contractArea": 302.85,
+          "exclusiveArea": 144.01,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 41,
+          "householdCount": 41,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "180C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_236/land_naver_16071730827934TFCo_JPEG/178058202010150019497874271205215802634000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_223/land_naver_1607173082418rw8GK_JPEG/178058202010150019494883511205215802275000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_4/land_system_1327400530484QxGcV_JPEG/116_17805_8_178C_GA1_1283147120565.jpg"
+              ]
+            }
+          },
+          "supplyArea": 180.05,
+          "contractArea": 303.56,
+          "exclusiveArea": 144.43,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 41,
+          "householdCount": 41,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "181B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_215/land_naver_16071730820911pXp3_JPEG/178057202010150019492931731205215801942000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_240/land_naver_1607173081723wQa79_JPEG/178057202010150019490616731205215801578000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_294/land_system_1327400529439nW1rG_JPEG/116_17805_7_178B_GA1_1283147071777.jpg"
+              ]
+            }
+          },
+          "supplyArea": 181.03,
+          "contractArea": 304.72,
+          "exclusiveArea": 144.64,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 41,
+          "householdCount": 41,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "127482": {
+      "name": "강남센트럴아이파크",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "902",
+        "roadName": "테헤란로44길 26",
+        "zipCode": "06214"
+      },
+      "coordinates": {
+        "xCoordinate": 127.045471,
+        "yCoordinate": 37.500401
+      },
+      "totalHouseholdNumber": 499,
+      "leaseHouseholdNumber": 44,
+      "dongCount": 5,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "에이치디씨현대산업개발주식회사",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 291,
+        "buildingCoverageRatio": 21
+      },
+      "useApprovalDate": "20220428",
+      "approvalElapsedYear": 5,
+      "parkingInfo": {
+        "totalParkingCount": 904,
+        "parkingCountPerHousehold": 1.81
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-508-7504",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 35,
+      "lowestDongFloor": 15,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 12,
+          "name": "79A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_250/land_naver_1647518324703dYjUz_JPEG/12748212202203172058445173930317205844669000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_284/land_naver_1647518325100sP5bq_JPEG/1274821220220317205844848031031720584570000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.27,
+          "contractArea": 129.42,
+          "exclusiveArea": 59.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 38,
+          "householdCount": 38,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 13,
+          "name": "79B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_89/land_naver_1647518325383rWbSW_JPEG/12748213202203172058452573050317205845353000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_275/land_naver_164751832566808UGN_JPEG/12748213202203172058455233800317205845637000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.93,
+          "contractArea": 130.04,
+          "exclusiveArea": 59.94,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 10,
+          "householdCount": 10,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 9,
+          "name": "80C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_255/land_naver_1647518327654Pc1w8_JPEG/1274829202203172058475038650317205847623000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_196/land_naver_1647518327927alAtu_JPEG/1274829202203172058477763400317205847895000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 80.39,
+          "contractArea": 130.52,
+          "exclusiveArea": 59.97,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 8,
+          "householdCount": 8,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 1,
+          "name": "110A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_216/land_naver_1607245707696ExNNg_JPEG/1274821202011041647535955301206180827539000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_113/land_naver_1607245707337suewr_JPEG/1274821202011041647533487911206180827190000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_289/hscp_img_1574665743137EUu3v_JPEG/photoinfra_1574665742768.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_14/land_naver_1607245937686P7q0U_JPEG/1274821202011041647540434531206181217534000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_65/land_naver_1607245708025CxcN4_JPEG/1274821202011041647537796121206180827873000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_63/hscp_img_15746657808217a5vh_JPEG/photoinfra_1574665780470.jpg"
+              ]
+            }
+          },
+          "supplyArea": 110.9,
+          "contractArea": 181.95,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 142,
+          "householdCount": 142,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "110B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_73/land_naver_1607245938378VLlVy_JPEG/1274822202011041647544211551206181218225000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_272/land_naver_1607245938050HkHP2_JPEG/1274822202011041647542046341206181217902000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_233/hscp_img_1574665733804W181H_JPEG/photoinfra_1574665733534.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_222/land_naver_1607245939148ip01r_JPEG/1274822202011041647549227411206181218988000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_225/land_naver_1607245938773MdA85_JPEG/1274822202011041647546946761206181218624000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_161/hscp_img_1574665775438SUA2x_JPEG/photoinfra_1574665775214.jpg"
+              ]
+            }
+          },
+          "supplyArea": 110.94,
+          "contractArea": 181.92,
+          "exclusiveArea": 84.91,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 66,
+          "householdCount": 66,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "148B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_259/land_naver_1607245939889K23kr_JPEG/1274823202011041647553394681206181219732000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_246/land_naver_1607245939523pSUK8_JPEG/1274823202011041647551307181206181219366000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_142/hscp_img_15746657529923qH63_JPEG/photoinfra_1574665752671.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_287/land_naver_1607245940646LSfep_JPEG/1274823202011041647557958071206181220501000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_213/land_naver_1607245940261tXaSw_JPEG/1274823202011041647555762901206181220101000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_46/hscp_img_1574665787323pTrLT_JPEG/photoinfra_1574665786623.jpg"
+              ]
+            }
+          },
+          "supplyArea": 148.33,
+          "contractArea": 244.64,
+          "exclusiveArea": 115.21,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 20,
+          "householdCount": 20,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "149A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_53/land_naver_1647518325906mgUrq_JPEG/1274826202203172058457553560317205845876000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_49/land_naver_1647518326174JvJV7_JPEG/1274826202203172058460086530317205846141000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 149.15,
+          "contractArea": 246.11,
+          "exclusiveArea": 115.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 29,
+          "householdCount": 29,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "159PH",
+          "nameType": "PH",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_126/land_naver_1647518326490Kdrga_JPEG/1274827202203172058462857290317205846458000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_24/land_naver_1647518326824KzLLG_JPEG/1274827202203172058466806400317205846794000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 159.03,
+          "contractArea": 260.08,
+          "exclusiveArea": 120.89,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "160A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_208/land_naver_1607245941408fIcCu_JPEG/1274824202011041647563052971206181221251000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_120/land_naver_1607245941011O1BfK_JPEG/1274824202011041647560102571206181220853000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_229/hscp_img_1574665766210Dzpmi_JPEG/photoinfra_1574665765792.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_121/land_naver_16072459422076YdBm_JPEG/127482420201104164756750694120618122251000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_184/land_naver_1607245941827LIfMs_JPEG/1274824202011041647565308331206181221653000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20191125_42/hscp_img_1574665800992dfn21_JPEG/photoinfra_1574665800620.jpg"
+              ]
+            }
+          },
+          "supplyArea": 160.85,
+          "contractArea": 265.73,
+          "exclusiveArea": 125.46,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 82,
+          "householdCount": 82,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "161B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20191125_119/hscp_img_157466576027564ivC_JPEG/photoinfra_1574665759879.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20191125_205/hscp_img_1574665795594AfBYg_JPEG/photoinfra_1574665795271.jpg"
+              ]
+            }
+          },
+          "supplyArea": 161.64,
+          "contractArea": 266.47,
+          "exclusiveArea": 125.41,
+          "roomCount": 4,
+          "bathRoomCount": 3,
+          "unitsOfSameArea": 28,
+          "householdCount": 28,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 10,
+          "name": "170PH",
+          "nameType": "PH",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_241/land_naver_1647518323602RshJj_JPEG/12748210202203172058434679730317205843570000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_118/land_naver_1647518323839Rhu5o_JPEG/12748210202203172058437063150317205843808000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 170.45,
+          "contractArea": 279.01,
+          "exclusiveArea": 129.87,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 2,
+          "householdCount": 2,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 11,
+          "name": "198A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_68/land_naver_1647518324105TLprw_JPEG/1274821120220317205843957750031720584469000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_142/land_naver_1647518324398MfPqG_JPEG/12748211202203172058442667050317205844364000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 198.6,
+          "contractArea": 328.28,
+          "exclusiveArea": 155.14,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 24,
+          "householdCount": 24,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "218PH",
+          "nameType": "PH",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220317_154/land_naver_1647518327110tAfcu_JPEG/127482820220317205846947026031720584778000000.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20220317_270/land_naver_1647518327411tPOcF_JPEG/1274828202203172058472532220317205847379000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 218.91,
+          "contractArea": 359.4,
+          "exclusiveArea": 168.06,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 1,
+          "householdCount": 1,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "394": {
+      "name": "래미안그레이튼3차",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "763-16",
+        "roadName": "도곡로43길 20",
+        "zipCode": "06219"
+      },
+      "coordinates": {
+        "xCoordinate": 127.048307,
+        "yCoordinate": 37.496731
+      },
+      "totalHouseholdNumber": 476,
+      "leaseHouseholdNumber": 24,
+      "dongCount": 8,
+      "hasBuildingHoInfo": false,
+      "constructionCompany": "삼성물산(주) 건설부문",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 271,
+        "buildingCoverageRatio": 21
+      },
+      "useApprovalDate": "20091228",
+      "approvalElapsedYear": 17,
+      "parkingInfo": {
+        "totalParkingCount": 582,
+        "parkingCountPerHousehold": 1.22
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-3453-6161",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 21,
+      "lowestDongFloor": 11,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "85",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_141/land_naver_16072090999276C3mF_JPEG/3941202010150245104938891206075819783000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_224/land_naver_16072090996078eFxW_JPEG/3941202010150245103088541206075819461000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_229/land_system_1303296245850hxtog_JPEG/116_394_1_85.jpg"
+              ]
+            }
+          },
+          "supplyArea": 85.64,
+          "contractArea": 121.36,
+          "exclusiveArea": 59.97,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 97,
+          "householdCount": 97,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "97",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_115/land_naver_1607209567274PGEz9_JPEG/3942202010150245110256461206080607133000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_198/land_naver_1607209567009lsHRP_JPEG/3942202010150245108293081206080606859000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_192/land_system_1303296246098zy8cA_JPEG/116_394_2_97.jpg"
+              ]
+            }
+          },
+          "supplyArea": 97.47,
+          "contractArea": 139.75,
+          "exclusiveArea": 70.98,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 128,
+          "householdCount": 128,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "113",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210713_58/land_naver_1626136239204DpReR_JPEG/394320210713093038821721071309303969000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210713_99/land_naver_1626136238560i4AAc_JPEG/3943202107130930380543400713093038388000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210608_165/land_naver_1623147278272SI8Ib_JPEG/3943202106081914381680490608191438234000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 113.47,
+          "contractArea": 164.08,
+          "exclusiveArea": 84.97,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 153,
+          "householdCount": 153,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "172",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_119/land_naver_1607209568662oQIy6_JPEG/3944202010150245122594581206080608510000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_115/land_naver_16072095682939jXKs_JPEG/3944202010150245119041911206080608141000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_192/land_system_1327384013066UxIyC_JPEG/116_394_4_172_GA1_1279590472318.jpg"
+              ]
+            }
+          },
+          "supplyArea": 172.22,
+          "contractArea": 256.84,
+          "exclusiveArea": 142.06,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 74,
+          "householdCount": 74,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "837": {
+      "name": "래미안그레이튼2차",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "762-3",
+        "roadName": "도곡로43길 21",
+        "zipCode": "06219"
+      },
+      "coordinates": {
+        "xCoordinate": 127.047241,
+        "yCoordinate": 37.4952
+      },
+      "totalHouseholdNumber": 464,
+      "leaseHouseholdNumber": 22,
+      "dongCount": 5,
+      "hasBuildingHoInfo": false,
+      "constructionCompany": "(주)삼성물산",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 266,
+        "buildingCoverageRatio": 17
+      },
+      "useApprovalDate": "20100610",
+      "approvalElapsedYear": 16,
+      "parkingInfo": {
+        "totalParkingCount": 626,
+        "parkingCountPerHousehold": 1.34
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-558-2981",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 34,
+      "lowestDongFloor": 22,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 8,
+          "name": "86A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_250/land_naver_1607220962085yjSQE_JPEG/8378202010150326432893401206111601674000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_219/land_naver_1607220961463U5c6G_JPEG/8378202010150326429789961206111601310000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_124/land_system_1303300062905hsFwd_JPEG/116_837_8_85A.jpg"
+              ]
+            }
+          },
+          "supplyArea": 86,
+          "contractArea": 117.93,
+          "exclusiveArea": 59.78,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 35,
+          "householdCount": 35,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "87B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_160/land_naver_1607220848144sWxHf_JPEG/83722020101503264070584312061114080.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_33/land_naver_1607220847805f8z3u_JPEG/8372202010150326404077051206111407654000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_283/land_system_1303296480737bc1BP_JPEG/116_837_2_87B.jpg"
+              ]
+            }
+          },
+          "supplyArea": 87.31,
+          "contractArea": 119.31,
+          "exclusiveArea": 59.91,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 37,
+          "householdCount": 37,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "109B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_300/land_naver_1607220873265PtnSo_JPEG/8374202010150326411906081206111433121000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_175/land_naver_16072208485113vsA7_JPEG/8374202010150326410070421206111408364000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_29/land_system_1303296375888x0120_JPEG/116_837_4_109B.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.21,
+          "contractArea": 154.54,
+          "exclusiveArea": 84.87,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 132,
+          "householdCount": 132,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 9,
+          "name": "109A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_103/land_naver_1607221826757FDgqB_JPEG/8379202010150326437742111206113026591000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_60/land_naver_1607221826306j7YlU_JPEG/8379202010150326434672631206113026136000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_241/land_system_1303300063170zTIsf_JPEG/116_837_9_109A.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.57,
+          "contractArea": 154.87,
+          "exclusiveArea": 84.81,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 56,
+          "householdCount": 56,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "135",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_132/land_naver_1607220873938WYSu3_JPEG/8375202010150326417370461206111433788000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_249/land_naver_1607220873597WzDqT_JPEG/8375202010150326415312001206111433452000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_200/land_system_1303296376167Nb7gO_JPEG/116_837_5_135.jpg"
+              ]
+            }
+          },
+          "supplyArea": 135.18,
+          "contractArea": 191.75,
+          "exclusiveArea": 105.89,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 82,
+          "householdCount": 82,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "154A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_229/land_naver_1607220874601pagW0_JPEG/8376202010150326421669391206111434459000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_127/land_naver_1607220874251g2Ubk_JPEG/8376202010150326419322671206111434107000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_11/land_system_1303296376429x6zSF_JPEG/116_837_6_154A.jpg"
+              ]
+            }
+          },
+          "supplyArea": 154.89,
+          "contractArea": 219.19,
+          "exclusiveArea": 120.37,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 68,
+          "householdCount": 68,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "154B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_261/land_naver_1607220961091U8CzR_JPEG/8377202010150326427912331206111600936000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_20/land_naver_1607220960718cp9lP_JPEG/8377202010150326424898101206111600569000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_267/land_system_1303296403177XE10z_JPEG/116_837_7_154B.jpg"
+              ]
+            }
+          },
+          "supplyArea": 154.96,
+          "contractArea": 219.89,
+          "exclusiveArea": 121.54,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 32,
+          "householdCount": 32,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "3315": {
+      "name": "디오빌역삼(주상복합)",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "720-25",
+        "roadName": "언주로 427",
+        "zipCode": "06221"
+      },
+      "coordinates": {
+        "xCoordinate": 127.042887,
+        "yCoordinate": 37.501445
+      },
+      "totalHouseholdNumber": 457,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 1,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)대우건설",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 966,
+        "buildingCoverageRatio": 44
+      },
+      "useApprovalDate": "20020625",
+      "approvalElapsedYear": 24,
+      "parkingInfo": {
+        "totalParkingCount": 338,
+        "parkingCountPerHousehold": 0.73
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-2193-6000",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 26,
+      "lowestDongFloor": 18,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "39",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210927_100/land_naver_1632733376181J7igF_JPEG/3315120210927180255775018092718025662000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210510_258/land_naver_1620625033717Ts0bP_JPEG/33151202105101437132452050510143713554000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210927_274/land_naver_1632733375543DvUYe_JPEG/33151202109271802550736320927180255418000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210510_156/land_naver_1620625034667GmvsP_JPEG/33151202105101437141738110510143714497000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20140113_264/hscp_img_1389609246600KkFu7_JPEG/photoinfra_1389609246364.jpg"
+              ]
+            }
+          },
+          "supplyArea": 39.58,
+          "contractArea": 54.94,
+          "exclusiveArea": 30.03,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 240,
+          "householdCount": 240,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": true
+        },
+        {
+          "number": 2,
+          "name": "48",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_163/land_naver_1607257093898xhBxJ_JPEG/33152202011041830010157791206211813745000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_82/land_naver_1607257093502RIt1p_JPEG/33152202011041830006594181206211813353000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_215/hscp_img_1332308876032OMg3S_JPEG/GW70765_1332308874791.jpg"
+              ]
+            }
+          },
+          "supplyArea": 48.71,
+          "contractArea": 67.61,
+          "exclusiveArea": 36.96,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 46,
+          "householdCount": 46,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "51",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_24/land_naver_16072570945474Pz6Y_JPEG/33153202011041830018135311206211814407000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_28/land_naver_1607257094246C6TGj_JPEG/33153202011041830013147031206211814102000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_103/hscp_img_13323088897433gcQA_JPEG/GW70765_1332308888471.jpg"
+              ]
+            }
+          },
+          "supplyArea": 51.57,
+          "contractArea": 71.58,
+          "exclusiveArea": 39.13,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 45,
+          "householdCount": 45,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "77D2",
+          "nameType": "D2",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_62/land_naver_1607257328108ovypp_JPEG/33157202011041830043529551206212207921000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_222/land_naver_1607257327615MT4nC_JPEG/33157202011041830039698461206212207449000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_204/land_system_1327380562075cXbDI_JPEG/116_3315_7_105D2_1270633948520.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.95,
+          "contractArea": 108.2,
+          "exclusiveArea": 59.14,
+          "roomCount": 2,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 15,
+          "householdCount": 15,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "77E",
+          "nameType": "E",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_132/land_naver_1607257329038p0kEE_JPEG/33158202011041830050224311206212208853000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_241/land_naver_1607257328575fdKtz_JPEG/33158202011041830046463121206212208396000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_143/land_system_1327380563323KO8po_JPEG/116_3315_8_105E_1270633941609.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.96,
+          "contractArea": 108.21,
+          "exclusiveArea": 59.15,
+          "roomCount": 2,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 24,
+          "householdCount": 24,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": true
+        },
+        {
+          "number": 4,
+          "name": "78",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210907_139/land_naver_1630985427591aATqe_JPEG/33154202109071230274663470907123027549000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 78.43,
+          "contractArea": 108.86,
+          "exclusiveArea": 59.5,
+          "roomCount": 2,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 64,
+          "householdCount": 64,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": true
+        },
+        {
+          "number": 5,
+          "name": "112",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_210/land_naver_16072573261739Afty_JPEG/33155202011041830030653571206212205978000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_205/land_naver_1607257095633gDNNU_JPEG/33155202011041830026772541206211815486000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_204/hscp_img_1332308922071RGwPu_JPEG/GW70765_1332308920671.jpg"
+              ]
+            }
+          },
+          "supplyArea": 112.01,
+          "contractArea": 155.48,
+          "exclusiveArea": 84.98,
+          "roomCount": 2,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 23,
+          "householdCount": 23,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "18213": {
+      "name": "개나리래미안",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "754",
+        "roadName": "역삼로 306",
+        "zipCode": "06216"
+      },
+      "coordinates": {
+        "xCoordinate": 127.046103,
+        "yCoordinate": 37.498452
+      },
+      "totalHouseholdNumber": 438,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 7,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "삼성물산(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 273,
+        "buildingCoverageRatio": 21
+      },
+      "useApprovalDate": "20060831",
+      "approvalElapsedYear": 20,
+      "parkingInfo": {
+        "totalParkingCount": 788,
+        "parkingCountPerHousehold": 1.79
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-556-4420",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 22,
+      "lowestDongFloor": 11,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "77B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20230309_144/land_naver_1678340280298qxVNm_JPEG/182131202303091438000735070309143800253000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.36,
+          "contractArea": 124.95,
+          "exclusiveArea": 59.7,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 16,
+          "householdCount": 16,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "77A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20230309_264/land_naver_1678340267501NaJGe_JPEG/182133202303091437473363680309143747468000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.59,
+          "contractArea": 125.37,
+          "exclusiveArea": 59.95,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 53,
+          "householdCount": 53,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "77C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20230309_205/land_naver_167834028842331iYk_JPEG/182132202303091438081582170309143808391000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.64,
+          "contractArea": 125.41,
+          "exclusiveArea": 59.93,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 19,
+          "householdCount": 19,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "109B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_253/land_naver_1607171647632BmiKm_JPEG/182135202010150023165367781205213407492000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_111/land_naver_16071715403593hq6u_JPEG/182135202010150023162836311205213220217000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_288/land_system_1327400426829kFBiT_JPEG/116_18213_5_109B_GA1_1283137645161.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.23,
+          "contractArea": 176.94,
+          "exclusiveArea": 84.94,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 10,
+          "householdCount": 10,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "109A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_78/land_naver_1607171540000e61zq_JPEG/182134202010150023160757751205213219856000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_38/land_naver_1607171538982qwDQC_JPEG/182134202010150023157787181205213218839000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_11/land_system_1327400423976nco40_JPEG/116_18213_4_109A_GA1_1283137617121.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.27,
+          "contractArea": 176.98,
+          "exclusiveArea": 84.93,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 123,
+          "householdCount": 123,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "146",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_167/land_naver_1607171648376utoLg_JPEG/182136202010150023170599471205213408225000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_217/land_naver_1607171648051Y8Y2t_JPEG/182136202010150023167218191205213407907000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_211/land_system_1327400428679MNPGs_JPEG/116_18213_6_145_GA1_1283137673045.jpg"
+              ]
+            }
+          },
+          "supplyArea": 146.56,
+          "contractArea": 237.96,
+          "exclusiveArea": 114.65,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 66,
+          "householdCount": 66,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "165B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_211/land_naver_1607171649974yhpzB_JPEG/182138202010150023182964031205213409829000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_73/land_naver_1607171649610pjV01_JPEG/182138202010150023180678521205213409459000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_132/land_system_1327400433119KDco7_JPEG/116_18213_8_165B_GA1_1283137722362.jpg"
+              ]
+            }
+          },
+          "supplyArea": 165.29,
+          "contractArea": 268.89,
+          "exclusiveArea": 129.96,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 37,
+          "householdCount": 37,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "165A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_255/land_naver_1607171649155UPqvq_JPEG/1821372020101500231774421812052134094000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_109/land_naver_1607171648806TRMYc_JPEG/182137202010150023173952721205213408666000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_28/land_system_13274004312448infV_JPEG/116_18213_7_165A_GA1_1283137698467.jpg"
+              ]
+            }
+          },
+          "supplyArea": 165.44,
+          "contractArea": 268.91,
+          "exclusiveArea": 129.8,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 40,
+          "householdCount": 40,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 9,
+          "name": "183",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220818_25/land_naver_166078870815523f9y_JPEG/18213920220818111147741480081811114827000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20220818_266/land_naver_16607887090360kQwG_JPEG/182139202208181111484331750818111148874000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20220818_104/land_naver_1660788500696hkoJ3_JPEG/182139202208181108205259660818110820651000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 183.09,
+          "contractArea": 298.33,
+          "exclusiveArea": 144.55,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 36,
+          "householdCount": 36,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 10,
+          "name": "184",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220818_8/land_naver_1660788720767NC6Gn_JPEG/1821310202208181112004068400818111200626000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20220818_23/land_naver_16607887213618QOwd_JPEG/1821310202208181112009522970818111201229000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20220818_58/land_naver_1660788516677fWiGa_JPEG/1821310202208181108365074190818110836623000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 184.38,
+          "contractArea": 299.95,
+          "exclusiveArea": 144.98,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 38,
+          "householdCount": 38,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "104032": {
+      "name": "테헤란아이파크",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "709-5",
+        "roadName": "테헤란로52길 16",
+        "zipCode": "06213"
+      },
+      "coordinates": {
+        "xCoordinate": 127.047118,
+        "yCoordinate": 37.502668
+      },
+      "totalHouseholdNumber": 411,
+      "leaseHouseholdNumber": 11,
+      "dongCount": 6,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "현대산업개발(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 255,
+        "buildingCoverageRatio": 20
+      },
+      "useApprovalDate": "20140124",
+      "approvalElapsedYear": 13,
+      "parkingInfo": {
+        "totalParkingCount": 589,
+        "parkingCountPerHousehold": 1.43
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-555-1992",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 25,
+      "lowestDongFloor": 7,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "82A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210511_92/land_naver_1620730437811V2Izz_JPEG/1040321202105111953573340590511195357665000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_208/land_naver_1620730438586zi1mi_JPEG/1040321202105111953580838470511195358426000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130401_54/hscp_img_1364800536452sfoxK_JPEG/photoinfra_1364800531323.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20210511_84/land_naver_1620730541204aTxYv_JPEG/104032120210511195540683947051119554160000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_97/land_naver_1620730481332O8CPJ_JPEG/1040321202105111954409428910511195441187000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130401_83/hscp_img_1364800557932GFXF2_JPEG/photoinfra_1364800548037.jpg"
+              ]
+            }
+          },
+          "supplyArea": 82.91,
+          "contractArea": 127.57,
+          "exclusiveArea": 59.77,
+          "roomCount": 2,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 3,
+          "householdCount": 3,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2012-11-16",
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "82B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_244/land_naver_1607237051092jRiHb_JPEG/1040322202011041602589203071206154410950000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_77/land_naver_1607237050791hfs5P_JPEG/1040322202011041602585926411206154410647000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130401_165/hscp_img_1364800580845yUFW1_JPEG/photoinfra_1364800580427.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_78/land_naver_1607234055751jLd8e_JPEG/1040322202011041602593769761206145415589000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_23/land_naver_1607237051406r98hW_JPEG/1040322202011041602591334221206154411262000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130401_38/hscp_img_1364800607357YjEoN_JPEG/photoinfra_1364800596457.jpg"
+              ]
+            }
+          },
+          "supplyArea": 82.91,
+          "contractArea": 127.57,
+          "exclusiveArea": 59.77,
+          "roomCount": 2,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 3,
+          "householdCount": 3,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2012-11-16",
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "93B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20200319_69/hscp_img_1584599060662GIIfm_JPEG/photoinfra_1584599060304.jpg"
+              ]
+            }
+          },
+          "supplyArea": 93.52,
+          "contractArea": 146.44,
+          "exclusiveArea": 70.83,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 17,
+          "householdCount": 17,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "94A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210511_289/land_naver_1620731033921RIJps_JPEG/1040323202105112003534104830511200353779000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_126/land_naver_1620731034757mwf3F_JPEG/1040323202105112003542084460511200354599000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_132/hscp_img_1363139774248pRfvz_JPEG/photoinfra_1363139773968.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20210511_226/land_naver_1620731057904QaXLq_JPEG/1040323202105112004174239080511200417762000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_43/land_naver_1620731058691xp8rD_JPEG/1040323202105112004181852940511200418535000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_16/hscp_img_1363139782858JCyTS_JPEG/photoinfra_1363139782646.jpg"
+              ]
+            }
+          },
+          "supplyArea": 94.37,
+          "contractArea": 147.29,
+          "exclusiveArea": 70.83,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 120,
+          "householdCount": 120,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2012-11-16",
+          "isVRExist": true
+        },
+        {
+          "number": 7,
+          "name": "104",
+          "nameType": "",
+          "floorPlanUrls": {
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20200319_253/hscp_img_1584599067147UtUqo_JPEG/photoinfra_1584599066809.jpg"
+              ]
+            }
+          },
+          "supplyArea": 104.22,
+          "contractArea": 164.13,
+          "exclusiveArea": 80.19,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 28,
+          "householdCount": 28,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "108",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_42/land_naver_1607234057885iyPCv_JPEG/1040324202011041603007976191206145417727000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_34/land_naver_1607234057525931fY_JPEG/1040324202011041603005553621206145417377000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_151/hscp_img_1363139805957t4Kcs_JPEG/photoinfra_1363139805712.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_229/land_naver_1607234058722m9i7B_JPEG/1040324202011041603013562731206145418570000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_13/land_naver_1607234058354WDifk_JPEG/1040324202011041603010006821206145418209000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_132/hscp_img_13631398161157ai8x_JPEG/photoinfra_1363139815807.jpg"
+              ]
+            }
+          },
+          "supplyArea": 108.73,
+          "contractArea": 171.96,
+          "exclusiveArea": 84.64,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 19,
+          "householdCount": 19,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2012-11-16",
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "117",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_256/land_naver_1607234059400KgCup_JPEG/1040325202011041603019017321206145419246000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_294/land_naver_1607234059042zA0IA_JPEG/1040325202011041603016825581206145418884000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_142/hscp_img_1363139833593wXm3e_JPEG/photoinfra_1363139833352.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_160/land_naver_1607234060108L0SNI_JPEG/1040325202011041603025498141206145419958000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_63/land_naver_1607234059732I9b3h_JPEG/1040325202011041603022525501206145419575000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20130313_230/hscp_img_13631398435435QIug_JPEG/photoinfra_1363139843263.jpg"
+              ]
+            }
+          },
+          "supplyArea": 117.38,
+          "contractArea": 186.58,
+          "exclusiveArea": 92.62,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 182,
+          "householdCount": 182,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2012-11-16",
+          "isVRExist": true
+        },
+        {
+          "number": 8,
+          "name": "147",
+          "nameType": "",
+          "floorPlanUrls": {},
+          "supplyArea": 147.12,
+          "contractArea": 235.3,
+          "exclusiveArea": 118.03,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 28,
+          "householdCount": 28,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "109227": {
+      "name": "역삼자이",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "711-3",
+        "roadName": "언주로 420",
+        "zipCode": "06214"
+      },
+      "coordinates": {
+        "xCoordinate": 127.04443,
+        "yCoordinate": 37.500719
+      },
+      "totalHouseholdNumber": 408,
+      "leaseHouseholdNumber": 51,
+      "dongCount": 3,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "지에스건설(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 299,
+        "buildingCoverageRatio": 14
+      },
+      "useApprovalDate": "20160622",
+      "approvalElapsedYear": 10,
+      "parkingInfo": {
+        "totalParkingCount": 615,
+        "parkingCountPerHousehold": 1.5
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-569-7651",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 31,
+      "lowestDongFloor": 23,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 3,
+          "name": "88",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_126/land_naver_1607235507297UhzED_JPEG/1092273202011041617329675511206151827151000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_73/land_naver_1607235506971XWncq_JPEG/1092273202011041617327287471206151826826000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20160415_261/hscp_img_1460714601617z1kSj_JPEG/photoinfra_1460714601372.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_109/land_naver_1607235507943nss6o_JPEG/1092273202011041617334244651206151827793000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_240/land_naver_1607235507640CVmlH_JPEG/1092273202011041617331661381206151827492000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20160415_288/hscp_img_1460714610812l91hf_JPEG/photoinfra_1460714610515.jpg"
+              ]
+            }
+          },
+          "supplyArea": 88.11,
+          "contractArea": 129.66,
+          "exclusiveArea": 59.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 53,
+          "householdCount": 53,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "113A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_112/land_naver_1607235508684dEPTq_JPEG/1092274202011041617338704661206151828525000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_217/land_naver_1607235508322G6aYl_JPEG/1092274202011041617336457221206151828175000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_171/hscp_img_1500879840962WlxMF_JPEG/photoinfra_1500879840707.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_233/land_naver_1607235509432Y8maY_JPEG/1092274202011041617343219151206151829276000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_275/land_naver_1607235509009d8irX_JPEG/1092274202011041617340968481206151828860000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_215/hscp_img_1500879849518SgrRD_JPEG/photoinfra_1500879849246.jpg"
+              ]
+            }
+          },
+          "supplyArea": 113.08,
+          "contractArea": 171.94,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 71,
+          "householdCount": 71,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "113B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_121/land_naver_1607235510498pos1N_JPEG/1092275202011041617347609281206151830343000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_203/land_naver_16072355100582ybJJ_JPEG/1092275202011041617345392691206151829897000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_211/hscp_img_150087985833079c24_JPEG/photoinfra_1500879858066.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_183/land_naver_16072355112813fu9l_JPEG/1092275202011041617352038881206151831126000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_3/land_naver_1607235510866OwzUq_JPEG/1092275202011041617349787851206151830708000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_131/hscp_img_1500879868613eaUy2_JPEG/photoinfra_1500879868294.jpg"
+              ]
+            }
+          },
+          "supplyArea": 113.21,
+          "contractArea": 172.06,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 30,
+          "householdCount": 30,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "115C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_136/land_naver_1607235511970dwp1c_JPEG/1092276202011041617356219161206151831811000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_136/land_naver_1607235511632GeoTC_JPEG/1092276202011041617354108001206151831477000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_201/hscp_img_150088022112298Ehs_JPEG/photoinfra_1500880220361.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_74/land_naver_1607235745209jhlPj_JPEG/109227620201104161736116451120615222525000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_106/land_naver_1607235512301A98c7_JPEG/1092276202011041617358306091206151832148000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_171/hscp_img_1500880230502f27ec_JPEG/photoinfra_1500880230153.jpg"
+              ]
+            }
+          },
+          "supplyArea": 115.06,
+          "contractArea": 173.92,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 29,
+          "householdCount": 29,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "115D",
+          "nameType": "D",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_188/land_naver_1607236229503Tr1BC_JPEG/1092277202011041617366215811206153029305000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_228/land_naver_1607236228991f6QsC_JPEG/1092277202011041617363617951206153028803000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_196/hscp_img_1500880237487EgMPg_JPEG/photoinfra_1500880237209.jpg"
+              ]
+            },
+            "EXPN": {
+              "OPT1": [
+                "https://landthumb-phinf.pstatic.net/20201206_183/land_naver_16072364539611kqB3_JPEG/1092277202011041617370840511206153413794000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_189/land_naver_1607236230132iaR5F_JPEG/1092277202011041617368413071206153029797000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20170724_174/hscp_img_1500880244881rBF95_JPEG/photoinfra_1500880244576.jpg"
+              ]
+            }
+          },
+          "supplyArea": 115.56,
+          "contractArea": 174.06,
+          "exclusiveArea": 84.48,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 26,
+          "householdCount": 26,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 1,
+          "name": "151B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_30/land_naver_1607128804210uK81U_JPEG/109227120201014202152840962120509400473000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_288/land_naver_1607128695153fMbeV_JPEG/109227120201014202152540376120509381512000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20160415_179/hscp_img_1460714589741gUNF5_JPEG/photoinfra_1460714589370.jpg"
+              ]
+            }
+          },
+          "supplyArea": 151.96,
+          "contractArea": 230.92,
+          "exclusiveArea": 114.01,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 90,
+          "householdCount": 90,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2014-10-22",
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "151A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_97/land_naver_160712880485720c1C_JPEG/1092272202010142021534271721205094004703000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_79/land_naver_1607128804533Gfn57_JPEG/1092272202010142021530890051205094004390000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20160415_258/hscp_img_1460714595313wpKQQ_JPEG/photoinfra_1460714595045.jpg"
+              ]
+            }
+          },
+          "supplyArea": 151.98,
+          "contractArea": 231.33,
+          "exclusiveArea": 114.59,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 58,
+          "householdCount": 58,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2014-10-22",
+          "isVRExist": false
+        }
+      ]
+    },
+    "17528": {
+      "name": "개나리푸르지오",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "755-1",
+        "roadName": "역삼로 314",
+        "zipCode": "06217"
+      },
+      "coordinates": {
+        "xCoordinate": 127.049987,
+        "yCoordinate": 37.499871
+      },
+      "totalHouseholdNumber": 332,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 5,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)대우건설",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 275,
+        "buildingCoverageRatio": 17
+      },
+      "useApprovalDate": "20060814",
+      "approvalElapsedYear": 20,
+      "parkingInfo": {
+        "totalParkingCount": 552,
+        "parkingCountPerHousehold": 1.66
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-564-6600",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 24,
+      "lowestDongFloor": 12,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "79B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210513_139/land_naver_1620868451571dymHS_JPEG/175281202105131014111998070513101411404000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210513_163/land_naver_16208684523584kQK4_JPEG/175281202105131014118985180513101412190000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20171128_92/hscp_img_151185583524765A89_JPEG/photoinfra_1511855835002.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.81,
+          "contractArea": 123.12,
+          "exclusiveArea": 59.68,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 41,
+          "householdCount": 41,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "79A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210513_116/land_naver_1620868441190DFPkf_JPEG/1752822021051310140076205105131014019000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210513_106/land_naver_1620868441929yAW8u_JPEG/175282202105131014015422080513101401729000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20171128_48/hscp_img_1511855812084cReKa_JPEG/photoinfra_1511855811678.jpg"
+              ]
+            }
+          },
+          "supplyArea": 79.97,
+          "contractArea": 123.49,
+          "exclusiveArea": 59.98,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 26,
+          "householdCount": 26,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "109A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_236/land_naver_1607173586291SQ9RU_JPEG/175283202010150014443941791205220626117000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_186/land_naver_1607173585836iMf0D_JPEG/175283202010150014442096671205220625656000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_155/land_system_1327400392826H3u5s_JPEG/116_17528_3_109A_GA1_1283136957414.jpg"
+              ]
+            }
+          },
+          "supplyArea": 109.39,
+          "contractArea": 170.82,
+          "exclusiveArea": 84.68,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 64,
+          "householdCount": 64,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "110B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_249/land_naver_1607173587285mEQVJ_JPEG/175284202010150014449861081205220627113000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_107/land_naver_1607173586801B4Si7_JPEG/175284202010150014446592551205220626627000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_232/land_system_1327400394660ORDcQ_JPEG/116_17528_4_109B_GA1_1283136980517.jpg"
+              ]
+            }
+          },
+          "supplyArea": 110.65,
+          "contractArea": 172.31,
+          "exclusiveArea": 84.98,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 38,
+          "householdCount": 38,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "166",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_253/land_naver_1607244968841Ab6Bk_JPEG/175286202011041652482153201206175608640000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_140/land_naver_1607244968322llU21_JPEG/175286202011041652479646431206175608121000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_138/hscp_img_1332308254376TLfBN_JPEG/GW70765_1332308252945.jpg"
+              ]
+            }
+          },
+          "supplyArea": 166.7,
+          "contractArea": 263.32,
+          "exclusiveArea": 133.16,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 46,
+          "householdCount": 46,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "167",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_48/land_naver_1607244967798KAclO_JPEG/175285202011041652476415631206175607599000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_170/land_naver_16072484663903iBLM_JPEG/175285202011041652474248371206185426190000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120321_283/hscp_img_1332308264310MhQmj_JPEG/GW70765_1332308263249.jpg"
+              ]
+            }
+          },
+          "supplyArea": 167.28,
+          "contractArea": 263.65,
+          "exclusiveArea": 132.83,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 39,
+          "householdCount": 39,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "184A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20150204_259/hscp_img_1423041871397KNPXr_JPEG/photoinfra_1423041870760.jpg"
+              ]
+            }
+          },
+          "supplyArea": 184.18,
+          "contractArea": 292.14,
+          "exclusiveArea": 148.8,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 42,
+          "householdCount": 42,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "184B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_201/land_naver_1607246183412T47Cb_JPEG/175287202011041652487433571206181623258000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_140/land_naver_1607244969309WVg2f_JPEG/175287202011041652485153921206175609113000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20150204_28/hscp_img_1423041819387vy9PV_JPEG/photoinfra_1423041818380.jpg"
+              ]
+            }
+          },
+          "supplyArea": 184.22,
+          "contractArea": 291.56,
+          "exclusiveArea": 147.95,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 36,
+          "householdCount": 36,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "3055": {
+      "name": "한화진넥스빌(주상복합)",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "706-20",
+        "roadName": "언주로86길 11",
+        "zipCode": "06210"
+      },
+      "coordinates": {
+        "xCoordinate": 127.04436,
+        "yCoordinate": 37.502106
+      },
+      "totalHouseholdNumber": 294,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 1,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)한화건설",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 1045,
+        "buildingCoverageRatio": 57
+      },
+      "useApprovalDate": "20010130",
+      "approvalElapsedYear": 26,
+      "parkingInfo": {
+        "totalParkingCount": 213,
+        "parkingCountPerHousehold": 0.72
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT001",
+        "heatingEnergyType": "HF001"
+      },
+      "managementOfficeContact": "02-555-7352",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 26,
+      "lowestDongFloor": 26,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "46",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_287/land_naver_1607207780809BI2iC_JPEG/30551202010150226318123221206073620679000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_19/land_naver_16072077805329qLDT_JPEG/30551202010150226316024371206073620398000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_252/land_system_1327380549859rOpuc_JPEG/116_3055_1_56_1270690985672.jpg"
+              ]
+            }
+          },
+          "supplyArea": 46.78,
+          "contractArea": 58.61,
+          "exclusiveArea": 34.82,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 42,
+          "householdCount": 42,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "52",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_113/land_naver_1607207781402v0aQ5_JPEG/30552202010150226322759361206073621266000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_148/land_naver_1607207781113bbGED_JPEG/30552202010150226320685141206073620974000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_287/land_system_1327380554438Ci7aK_JPEG/116_3055_2_62_1270690981525.jpg"
+              ]
+            }
+          },
+          "supplyArea": 52.66,
+          "contractArea": 65.98,
+          "exclusiveArea": 39.2,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 84,
+          "householdCount": 84,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "55A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_237/land_naver_16072561318883wI8x_JPEG/30553202011041828091012961206210211720000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_137/land_naver_1607256131468sBwfH_JPEG/30553202011041828088939261206210211294000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20140617_2/hscp_img_1402974331981nst0O_JPEG/photoinfra_1402974331697.jpg"
+              ]
+            }
+          },
+          "supplyArea": 55.99,
+          "contractArea": 70.16,
+          "exclusiveArea": 41.68,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 21,
+          "householdCount": 21,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "57B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20220121_35/land_naver_1642735780518IgGEx_JPEG/30554202201211229403771190121122940485000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 57.12,
+          "contractArea": 71.57,
+          "exclusiveArea": 42.52,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 21,
+          "householdCount": 21,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "58",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_235/land_naver_1607207782006gXQKM_JPEG/30555202010150226327188971206073621873000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_131/land_naver_1607207781720ORLGg_JPEG/30555202010150226324975881206073621583000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_103/land_system_13273805553486b92c_JPEG/116_3055_5_72_1270691000033.jpg"
+              ]
+            }
+          },
+          "supplyArea": 58.54,
+          "contractArea": 73.36,
+          "exclusiveArea": 43.58,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 105,
+          "householdCount": 105,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "68",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_170/land_naver_1607207782599NhodP_JPEG/30556202010150226331503931206073622465000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_145/land_naver_1607207782307iFRyp_JPEG/30556202010150226329768221206073622170000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_254/land_system_1327380556320NlSOx_JPEG/116_3055_6_85_1270691004991.jpg"
+              ]
+            }
+          },
+          "supplyArea": 68.62,
+          "contractArea": 85.98,
+          "exclusiveArea": 51.08,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 21,
+          "householdCount": 21,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "22386": {
+      "name": "래미안펜타빌",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "713-7",
+        "roadName": "역삼로 309",
+        "zipCode": "06215"
+      },
+      "coordinates": {
+        "xCoordinate": 127.047588,
+        "yCoordinate": 37.500825
+      },
+      "totalHouseholdNumber": 288,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 5,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "삼성물산(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 273,
+        "buildingCoverageRatio": 18
+      },
+      "useApprovalDate": "20071130",
+      "approvalElapsedYear": 19,
+      "parkingInfo": {
+        "totalParkingCount": 665,
+        "parkingCountPerHousehold": 2.3
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-555-4534",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 24,
+      "lowestDongFloor": 14,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 4,
+          "name": "161D",
+          "nameType": "D",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210513_193/land_naver_1620896517573s4fq7_JPEG/223864202105131801571362490513180157423000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210513_153/land_naver_1620896518356m6abf_JPEG/223864202105131801578183860513180158210000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_271/land_system_1327381021444x5FKv_JPEG/116_22386_4_158D_GA1_1279084120509.jpg"
+              ]
+            }
+          },
+          "supplyArea": 161.43,
+          "contractArea": 257.4,
+          "exclusiveArea": 135.67,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 28,
+          "householdCount": 28,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "161C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_63/land_naver_1607256277989h0YOT_JPEG/223863202011041700261897761206210437786000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_19/land_naver_1607256277502kq6C4_JPEG/223863202011041700259693611206210437315000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20110420_51/land_system_1303302881009FBn32_JPEG/116_22386_3_158C.jpg"
+              ]
+            }
+          },
+          "supplyArea": 161.75,
+          "contractArea": 259.48,
+          "exclusiveArea": 138.16,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 22,
+          "householdCount": 22,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "161B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_95/land_naver_1607256277027nl6Me_JPEG/223862202011041700257663211206210436845000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_227/land_naver_1607256276558RJy8J_JPEG/223862202011041700254914231206210436379000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_290/land_system_1327381019215VRukw_JPEG/116_22386_2_158B_GA1_1279084025131.jpg"
+              ]
+            }
+          },
+          "supplyArea": 161.95,
+          "contractArea": 259.95,
+          "exclusiveArea": 138.54,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 44,
+          "householdCount": 44,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 1,
+          "name": "161A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_36/land_naver_1607256276066YqdzD_JPEG/223861202011041700252407641206210435876000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_42/land_naver_1607256275609avXWy_JPEG/223861202011041700249527871206210435424000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_92/land_system_1327380637428b8TFb_JPEG/116_22386_1_158A_1275892669263.jpg"
+              ]
+            }
+          },
+          "supplyArea": 161.97,
+          "contractArea": 258.38,
+          "exclusiveArea": 136.28,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 50,
+          "householdCount": 50,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "185B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_89/land_naver_1607179826047D1gnx_JPEG/223866202010150053141233301205235025852000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_184/land_naver_1607179825630oBPe6_JPEG/223866202010150053138950451205235025472000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_233/land_system_1327381022731RqHRs_JPEG/116_22386_6_185B_GA1_1279085464735.jpg"
+              ]
+            }
+          },
+          "supplyArea": 185.31,
+          "contractArea": 297.48,
+          "exclusiveArea": 158.58,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 44,
+          "householdCount": 44,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 7,
+          "name": "185C",
+          "nameType": "C",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201205_64/land_naver_1607179826969GzcCd_JPEG/223867202010150053146500421205235026791000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201205_32/land_naver_16071798264947zNaz_JPEG/223867202010150053143372111205235026317000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_224/land_system_1327381023958y3v6M_JPEG/116_22386_7_185C_GA1_1279085526881.jpg"
+              ]
+            }
+          },
+          "supplyArea": 185.41,
+          "contractArea": 297.58,
+          "exclusiveArea": 158.58,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 22,
+          "householdCount": 22,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 8,
+          "name": "185D",
+          "nameType": "D",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_69/land_naver_16072562809679Kxdh_JPEG/223868202011041700275854921206210440798000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_94/land_naver_1607256280419ifMRo_JPEG/223868202011041700274008831206210440236000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_59/land_system_13273810245352HtjN_JPEG/116_22386_8_185D_GA1_1279085553398.jpg"
+              ]
+            }
+          },
+          "supplyArea": 185.97,
+          "contractArea": 297.33,
+          "exclusiveArea": 157.41,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 28,
+          "householdCount": 28,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "185A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_16/land_naver_1607256279933uhUL8_JPEG/223865202011041700271354681206210439750000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_38/land_naver_1607256279452DS3dn_JPEG/223865202011041700269501141206210439266000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_154/land_system_1327380638570b9hWe_JPEG/116_22386_5_185A_1275892931034.jpg"
+              ]
+            }
+          },
+          "supplyArea": 185.97,
+          "contractArea": 297.3,
+          "exclusiveArea": 157.37,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 50,
+          "householdCount": 50,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "103376": {
+      "name": "개나리SK뷰",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "716-3",
+        "roadName": "역삼로 315-1",
+        "zipCode": "06213"
+      },
+      "coordinates": {
+        "xCoordinate": 127.050099,
+        "yCoordinate": 37.501728
+      },
+      "totalHouseholdNumber": 240,
+      "leaseHouseholdNumber": 7,
+      "dongCount": 3,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "에스케이건설(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 257,
+        "buildingCoverageRatio": 15
+      },
+      "useApprovalDate": "20120817",
+      "approvalElapsedYear": 14,
+      "parkingInfo": {
+        "totalParkingCount": 397,
+        "parkingCountPerHousehold": 1.65
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "managementOfficeContact": "02-557-7730",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 25,
+      "lowestDongFloor": 25,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "112A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210511_244/land_naver_1620728335424rCaWA_JPEG/1033761202105111918549491670511191855268000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_220/land_naver_1620728336220VPbh3_JPEG/103376120210511191855708954051119185665000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120131_64/hscp_img_1327992718449KneiB_JPEG/GW10218_1327992716760.jpg"
+              ]
+            }
+          },
+          "supplyArea": 112.96,
+          "contractArea": 173.95,
+          "exclusiveArea": 84.99,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 89,
+          "householdCount": 89,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "113B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210511_76/land_naver_16207283580726Vgpb_JPEG/1033762202105111919175420480511191917921000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_246/land_naver_1620728358758NOV9f_JPEG/1033762202105111919182992780511191918593000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120131_113/hscp_img_1327992711638Edhe1_JPEG/GW10218_1327992710070.jpg"
+              ]
+            }
+          },
+          "supplyArea": 113.05,
+          "contractArea": 174.03,
+          "exclusiveArea": 84.98,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 48,
+          "householdCount": 48,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "160",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20210511_138/land_naver_1620728388083exvcI_JPEG/1033763202105111919476145810511191947911000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20210511_236/land_naver_1620728389183eVKtq_JPEG/1033763202105111919486488010511191948993000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120131_175/hscp_img_1327992725370AAdWR_JPEG/GW10218_1327992723501.jpg"
+              ]
+            }
+          },
+          "supplyArea": 160.22,
+          "contractArea": 251.54,
+          "exclusiveArea": 127.27,
+          "roomCount": 4,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 96,
+          "householdCount": 96,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "139570": {
+      "name": "원에디션강남(도시형)",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "653-4",
+        "roadName": "언주로 563",
+        "zipCode": "06135"
+      },
+      "coordinates": {
+        "xCoordinate": 127.038246,
+        "yCoordinate": 37.507908
+      },
+      "totalHouseholdNumber": 229,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 2,
+      "hasBuildingHoInfo": false,
+      "constructionCompany": "현대엔지니어링(주)",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 315,
+        "buildingCoverageRatio": 50
+      },
+      "useApprovalDate": "20240206",
+      "approvalElapsedYear": 3,
+      "parkingInfo": {
+        "totalParkingCount": 239,
+        "parkingCountPerHousehold": 1.04
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT005",
+        "heatingEnergyType": "HF002"
+      },
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 15,
+      "lowestDongFloor": 6,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "41A25",
+          "nameType": "A25",
+          "floorPlanUrls": {},
+          "supplyArea": 41.97,
+          "contractArea": 84.65,
+          "exclusiveArea": 26.73,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 2,
+          "name": "43A14",
+          "nameType": "A14",
+          "floorPlanUrls": {},
+          "supplyArea": 43.79,
+          "contractArea": 89.04,
+          "exclusiveArea": 28.34,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 10,
+          "householdCount": 10,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 3,
+          "name": "45A21",
+          "nameType": "A21",
+          "floorPlanUrls": {},
+          "supplyArea": 45.39,
+          "contractArea": 92.11,
+          "exclusiveArea": 29.26,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 4,
+          "name": "47A26",
+          "nameType": "A26",
+          "floorPlanUrls": {},
+          "supplyArea": 47.27,
+          "contractArea": 95.7,
+          "exclusiveArea": 30.34,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 5,
+          "name": "49A27",
+          "nameType": "A27",
+          "floorPlanUrls": {},
+          "supplyArea": 49,
+          "contractArea": 99.29,
+          "exclusiveArea": 31.5,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 6,
+          "name": "49A23",
+          "nameType": "A23",
+          "floorPlanUrls": {},
+          "supplyArea": 49.43,
+          "contractArea": 100.21,
+          "exclusiveArea": 31.8,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 7,
+          "name": "50A18",
+          "nameType": "A18",
+          "floorPlanUrls": {},
+          "supplyArea": 50.17,
+          "contractArea": 101.69,
+          "exclusiveArea": 32.27,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 6,
+          "householdCount": 6,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 9,
+          "name": "52A22",
+          "nameType": "A22",
+          "floorPlanUrls": {},
+          "supplyArea": 52.44,
+          "contractArea": 106.29,
+          "exclusiveArea": 33.73,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 10,
+          "name": "52A24",
+          "nameType": "A24",
+          "floorPlanUrls": {},
+          "supplyArea": 52.73,
+          "contractArea": 106.72,
+          "exclusiveArea": 33.82,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": false
+        },
+        {
+          "number": 12,
+          "name": "56A07",
+          "nameType": "A07",
+          "floorPlanUrls": {},
+          "supplyArea": 56.29,
+          "contractArea": 113.17,
+          "exclusiveArea": 35.63,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 3,
+          "householdCount": 3,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 13,
+          "name": "58A10",
+          "nameType": "A10",
+          "floorPlanUrls": {},
+          "supplyArea": 58.45,
+          "contractArea": 117.89,
+          "exclusiveArea": 37.23,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 14,
+          "name": "58A19",
+          "nameType": "A19",
+          "floorPlanUrls": {},
+          "supplyArea": 58.83,
+          "contractArea": 119.74,
+          "exclusiveArea": 38.15,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 20,
+          "householdCount": 20,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 15,
+          "name": "60A17",
+          "nameType": "A17",
+          "floorPlanUrls": {},
+          "supplyArea": 60.85,
+          "contractArea": 123.55,
+          "exclusiveArea": 39.28,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 6,
+          "householdCount": 6,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 11,
+          "name": "63A12",
+          "nameType": "A12",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20240105_288/land_naver_17044430961439esRi_JPEG/13957011202401051724558830800105172456111000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 63.83,
+          "contractArea": 129.21,
+          "exclusiveArea": 40.95,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 13,
+          "householdCount": 13,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 16,
+          "name": "63A09",
+          "nameType": "A09",
+          "floorPlanUrls": {},
+          "supplyArea": 63.95,
+          "contractArea": 130.21,
+          "exclusiveArea": 41.5,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 3,
+          "householdCount": 3,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 17,
+          "name": "65A16",
+          "nameType": "A16",
+          "floorPlanUrls": {},
+          "supplyArea": 65.21,
+          "contractArea": 132.87,
+          "exclusiveArea": 42.38,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 6,
+          "householdCount": 6,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 18,
+          "name": "65A08",
+          "nameType": "A08",
+          "floorPlanUrls": {},
+          "supplyArea": 65.92,
+          "contractArea": 133.63,
+          "exclusiveArea": 42.41,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 3,
+          "householdCount": 3,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 19,
+          "name": "67A01",
+          "nameType": "A01",
+          "floorPlanUrls": {},
+          "supplyArea": 67.87,
+          "contractArea": 137.35,
+          "exclusiveArea": 43.52,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 20,
+          "name": "69A02-1",
+          "nameType": "A02-1",
+          "floorPlanUrls": {},
+          "supplyArea": 69.38,
+          "contractArea": 140.88,
+          "exclusiveArea": 44.79,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 21,
+          "name": "70A11",
+          "nameType": "A11",
+          "floorPlanUrls": {},
+          "supplyArea": 70.64,
+          "contractArea": 143.75,
+          "exclusiveArea": 45.8,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 22,
+          "name": "71A02",
+          "nameType": "A02",
+          "floorPlanUrls": {},
+          "supplyArea": 71.45,
+          "contractArea": 145.4,
+          "exclusiveArea": 46.32,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 64,
+          "householdCount": 64,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 23,
+          "name": "71A05",
+          "nameType": "A05",
+          "floorPlanUrls": {},
+          "supplyArea": 71.7,
+          "contractArea": 146.12,
+          "exclusiveArea": 46.61,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 24,
+          "name": "72A03",
+          "nameType": "A03",
+          "floorPlanUrls": {},
+          "supplyArea": 72.07,
+          "contractArea": 146.76,
+          "exclusiveArea": 46.78,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 8,
+          "name": "75A04",
+          "nameType": "A04",
+          "floorPlanUrls": {},
+          "supplyArea": 75.81,
+          "contractArea": 154.77,
+          "exclusiveArea": 49.46,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 5,
+          "householdCount": 5,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 25,
+          "name": "76A20",
+          "nameType": "A20",
+          "floorPlanUrls": {},
+          "supplyArea": 76.36,
+          "contractArea": 155.57,
+          "exclusiveArea": 49.62,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 4,
+          "householdCount": 4,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": false
+        },
+        {
+          "number": 26,
+          "name": "76A15",
+          "nameType": "A15",
+          "floorPlanUrls": {},
+          "supplyArea": 76.59,
+          "contractArea": 156.11,
+          "exclusiveArea": 49.81,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 6,
+          "householdCount": 6,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 27,
+          "name": "77A13",
+          "nameType": "A13",
+          "floorPlanUrls": {},
+          "supplyArea": 77.43,
+          "contractArea": 156.75,
+          "exclusiveArea": 49.68,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 13,
+          "householdCount": 13,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        },
+        {
+          "number": 28,
+          "name": "77A06",
+          "nameType": "A06",
+          "floorPlanUrls": {},
+          "supplyArea": 77.67,
+          "contractArea": 157.47,
+          "exclusiveArea": 49.99,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 11,
+          "householdCount": 11,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "monopolyPossibleDate": "2024-01-31",
+          "isVRExist": true
+        }
+      ]
+    },
+    "3054": {
+      "name": "역삼한스빌",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "836",
+        "roadName": "도곡로3길 26",
+        "zipCode": "06254"
+      },
+      "coordinates": {
+        "xCoordinate": 127.032841,
+        "yCoordinate": 37.492001
+      },
+      "totalHouseholdNumber": 216,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 1,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)한일합섬",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 376,
+        "buildingCoverageRatio": 37
+      },
+      "useApprovalDate": "19961126",
+      "approvalElapsedYear": 30,
+      "parkingInfo": {
+        "totalParkingCount": 154,
+        "parkingCountPerHousehold": 0.71
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT001",
+        "heatingEnergyType": "HF001"
+      },
+      "managementOfficeContact": "02-508-8079",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 12,
+      "lowestDongFloor": 10,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "45",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20260225_272/1772010539124axwkC_JPEG/3054120260225180858675282022518085985000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 45.98,
+          "contractArea": 61.73,
+          "exclusiveArea": 31.78,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 22,
+          "householdCount": 22,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "57",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_187/land_naver_1607256130026yrWqp_JPEG/30542202011041828082182301206210209872000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_245/land_naver_1607256129598BnOI3_JPEG/30542202011041828079331831206210209421000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_37/land_system_1327380547975IGjPc_JPEG/116_3054_2_56_1270690828092.jpg"
+              ]
+            }
+          },
+          "supplyArea": 57.7,
+          "contractArea": 77.49,
+          "exclusiveArea": 39.89,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 171,
+          "householdCount": 171,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "60",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20260225_150/1772010539853gGGcQ_JPEG/30543202602251808594240770225180859809000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 60.71,
+          "contractArea": 81.51,
+          "exclusiveArea": 41.95,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 11,
+          "householdCount": 11,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 4,
+          "name": "69",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_258/land_naver_1607256130998iX32a_JPEG/30544202011041828086064641206210210837000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_91/land_naver_1607256130484otc3U_JPEG/30544202011041828084334071206210210312000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_293/land_system_1327380548897y34vG_JPEG/116_3054_4_66_1270690845474.jpg"
+              ]
+            }
+          },
+          "supplyArea": 69.75,
+          "contractArea": 93.67,
+          "exclusiveArea": 48.21,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 10,
+          "householdCount": 10,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 5,
+          "name": "75",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20260225_174/1772010540617yMNDN_JPEG/30545202602251809002909270225180900579000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 75.64,
+          "contractArea": 101.54,
+          "exclusiveArea": 52.27,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 1,
+          "householdCount": 1,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 6,
+          "name": "86",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20260225_103/17720105412578DIGi_JPEG/30546202602251809009135750225180901216000000.jpg"
+              ]
+            }
+          },
+          "supplyArea": 86,
+          "contractArea": 115.44,
+          "exclusiveArea": 59.42,
+          "roomCount": 1,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 1,
+          "householdCount": 1,
+          "entranceType": "20",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    },
+    "588": {
+      "name": "동부센트레빌",
+      "type": "A01",
+      "address": {
+        "legalDivisionNumber": "1168010100",
+        "legalDivisionLevel": "EUP",
+        "city": "서울시",
+        "division": "강남구",
+        "sector": "역삼동",
+        "jibun": "716",
+        "roadName": "선릉로 423",
+        "zipCode": "06213"
+      },
+      "coordinates": {
+        "xCoordinate": 127.049364,
+        "yCoordinate": 37.50256
+      },
+      "totalHouseholdNumber": 206,
+      "leaseHouseholdNumber": 0,
+      "dongCount": 1,
+      "hasBuildingHoInfo": true,
+      "constructionCompany": "(주)동부건설",
+      "buildingUse": "공동주택",
+      "isServicedResidence": false,
+      "buildingRatioInfo": {
+        "floorAreaRatio": 350,
+        "buildingCoverageRatio": 22
+      },
+      "useApprovalDate": "19980421",
+      "approvalElapsedYear": 29,
+      "parkingInfo": {
+        "totalParkingCount": 208,
+        "parkingCountPerHousehold": 1
+      },
+      "heatingAndCoolingInfo": {
+        "heatingAndCoolingSystemType": "HT002",
+        "heatingEnergyType": "HF001"
+      },
+      "managementOfficeContact": "02-563-3440",
+      "monopolyRestrictionType": "N",
+      "isRestrictedTransferOfReconstructionAssociationMembership": false,
+      "isComplexTourExist": false,
+      "highestDongFloor": 21,
+      "lowestDongFloor": 19,
+      "_dong_name": "서울시 강남구 역삼동",
+      "_property_type": "apt",
+      "pyeongs": [
+        {
+          "number": 1,
+          "name": "77A",
+          "nameType": "A",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_235/land_naver_1607212330186XUN5R_JPEG/588120201015030119494290120608521022000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_166/land_naver_16072123297356V6Gg_JPEG/5881202010150301193231141206085209569000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_1/land_system_1327400398318qD55j_JPEG/116_588_1_79A_GA1_1283137086476.jpg"
+              ]
+            }
+          },
+          "supplyArea": 77.83,
+          "contractArea": 102.82,
+          "exclusiveArea": 59.82,
+          "roomCount": 3,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 42,
+          "householdCount": 42,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 3,
+          "name": "78B",
+          "nameType": "B",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_179/land_naver_1607212331985hUN7d_JPEG/5883202010150301203071931206085211804000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_160/land_naver_1607212331497WNtEC_JPEG/5883202010150301200999221206085211331000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_159/land_system_1327400400247YFKG4_JPEG/116_588_3_79B_GA1_1283137114966.jpg"
+              ]
+            }
+          },
+          "supplyArea": 78.03,
+          "contractArea": 103.09,
+          "exclusiveArea": 59.97,
+          "roomCount": 3,
+          "bathRoomCount": 1,
+          "unitsOfSameArea": 61,
+          "householdCount": 61,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        },
+        {
+          "number": 2,
+          "name": "110",
+          "nameType": "",
+          "floorPlanUrls": {
+            "BASE": {
+              "0": [
+                "https://landthumb-phinf.pstatic.net/20201206_93/land_naver_1607212331047U6usG_JPEG/5882202010150301198437611206085210882000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20201206_190/land_naver_1607212330604zzPUE_JPEG/5882202010150301196740021206085210436000000.jpg",
+                "https://landthumb-phinf.pstatic.net/20120124_190/land_system_13274004026837qAU9_JPEG/116_588_2_112_GA1_1283137146647.jpg"
+              ]
+            }
+          },
+          "supplyArea": 110.66,
+          "contractArea": 146.16,
+          "exclusiveArea": 84.97,
+          "roomCount": 3,
+          "bathRoomCount": 2,
+          "unitsOfSameArea": 103,
+          "householdCount": 103,
+          "entranceType": "10",
+          "direction": "SS",
+          "isDuplex": false,
+          "isMonopolyRestricted": false,
+          "isVRExist": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+venv/
+.venv/
+.env
+.local_secrets/
+runtime/
+__pycache__/
+*.log
+*.png
+*.xlsx
+~$*.xlsx
+.DS_Store
+debug_item.json
+parse_log.py
+test_extraction.py
+
+crawler_excel.py
+summarizer.py
+fetch_region_codes.py
+
+# Private Data & Scripts
+real_estate.db
+
+# Local Mirror of Private DB
+private-land-db/
+
+# Google Auth
+credentials.json
+token.json
+token_output.txt
+setup_gdrive_auth.py
+token.txt
+check_upload.py
+test.txt
+test_upload.txt
+actions-runner/
