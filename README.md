@@ -59,7 +59,39 @@ DB 경로 지정:
 - `complexes`
 - `prices`
 
-## MCP 서버
+## 서버에서 `no connection`/타임아웃 날 때
+
+서버(VPS/클라우드)에서는 `fin.land.naver.com`이 TLS 연결 후 응답을 주지 않고 타임아웃되는 경우가 있습니다.
+이 경우 크롤러 로그에 `curl timed out after TLS connect`가 남습니다.
+
+진단 로그를 파일로 저장해서 먼저 확인하세요.
+
+```bash
+./crawler.py --regions "서울시 강남구 역삼동" --no-db-save --raw-output ./raw_test.json --log-path ./crawler_server.log
+```
+
+프록시를 쓸 수 있으면 아래처럼 실행하세요.
+
+```bash
+export PLAYWRIGHT_PROXY_SERVER="http://<proxy-host>:<port>"
+# 필요 시
+export PLAYWRIGHT_PROXY_USERNAME="<user>"
+export PLAYWRIGHT_PROXY_PASSWORD="<pass>"
+
+./crawler.py --regions "서울시 강남구 역삼동" --no-db-save --raw-output ./raw_test.json --log-path ./crawler_server.log
+```
+
+브라우저가 서버에서 시작 실패(`sandbox_host_linux.cc` 등)하면:
+
+```bash
+# 1) 시스템 크롬 경로 지정(예시)
+export PLAYWRIGHT_EXECUTABLE_PATH="/usr/bin/google-chrome"
+
+# 2) 샌드박스 옵션 강제(환경에 맞게 false/true 시도)
+export PLAYWRIGHT_CHROMIUM_SANDBOX=false
+```
+
+## MCP 서버 (조회 전용)
 
 MCP 서버 파일: `mcp_server.py`
 
@@ -70,7 +102,6 @@ python -m pip install -r requirements.txt
 
 제공 도구:
 
-- `crawl_market`: 수집 실행 (임시 raw JSON 생성 후 기본은 자동 삭제)
 - `search_listings`: 조건 검색 (거래유형/가격대/세대수/단지코드/유형) — MySQL `RE_*` 스키마 기반
 - `get_market_trend`: 구/군 단위 매물 흐름 요약
 - `recommend_for_budget`: 예산 기반 추천
@@ -89,4 +120,30 @@ mysql -u root -p brain < /path/to/schema.sql   # SCHEMA.md DDL 적용
 export MYSQL_USER=root
 export MYSQL_PASSWORD=*****
 # MYSQL_HOST/PORT/DATABASE 는 기본값(127.0.0.1/3306/brain) 사용
+```
+
+## 로컬 크롤링 -> 서버 MySQL 적재
+
+크롤링은 로컬에서 수행하고, 결과는 서버 MySQL(`RE_*`)에 적재:
+
+```bash
+cd land
+export MYSQL_HOST=<server-mysql-host>
+export MYSQL_PORT=3306
+export MYSQL_USER=<user>
+export MYSQL_PASSWORD=<password>
+export MYSQL_DATABASE=brain
+
+python local_crawl_to_mysql.py --regions "서울시 강남구 역삼동"
+```
+
+옵션 예시:
+
+```bash
+python local_crawl_to_mysql.py \
+  --regions "서울시 강남구 역삼동" \
+  --trade-types A1 B1 B2 \
+  --property-type all \
+  --min-households 200 \
+  --raw-output ./raw_local.json
 ```

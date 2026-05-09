@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
-import asyncio
-import os
-from pathlib import Path
-from tempfile import NamedTemporaryFile
-
 from mcp.server.fastmcp import FastMCP
 
-from crawler import run_crawler
 from market_query import (
     listings_for_complex,
     market_trend,
@@ -17,55 +11,6 @@ from market_query import (
 
 
 mcp = FastMCP("naver-land-market")
-BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_CRAWLER_DB_PATH = str(BASE_DIR / "real_estate.db")
-
-
-@mcp.tool()
-def crawl_market(
-    regions: list[str],
-    trade_types: list[str] | None = None,
-    property_type: str = "all",
-    min_households: int = 0,
-    complex_nos: list[int] | None = None,
-    db_path: str = DEFAULT_CRAWLER_DB_PATH,
-    keep_raw_output: bool = False,
-) -> dict:
-    """지역/필터 조건으로 시장 데이터를 수집한다 (크롤러는 SQLite + RE_* INSERT SQL 출력)."""
-    raw_file = NamedTemporaryFile(
-        prefix="raw_naver_land_",
-        suffix=".json",
-        delete=False,
-        dir=str(BASE_DIR),
-    )
-    raw_file_path = raw_file.name
-    raw_file.close()
-
-    asyncio.run(
-        run_crawler(
-            regions=regions,
-            trade_types=trade_types or ["A1", "B1", "B2"],
-            property_type=property_type,
-            min_households=min_households,
-            complex_nos=complex_nos,
-            db_path=db_path,
-            raw_output=raw_file_path,
-            no_db_save=False,
-        )
-    )
-
-    result = {
-        "status": "ok",
-        "db_path": db_path,
-        "raw_output_path": raw_file_path,
-        "note": "raw 파일은 임시 산출물입니다.",
-    }
-    if not keep_raw_output and os.path.exists(raw_file_path):
-        os.remove(raw_file_path)
-        result["raw_output_deleted"] = True
-    else:
-        result["raw_output_deleted"] = False
-    return result
 
 
 @mcp.tool()

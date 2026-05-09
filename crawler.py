@@ -10,6 +10,9 @@ import os
 import sqlite3
 import argparse
 import sys
+import shlex
+import ssl
+import socket
 from pathlib import Path
 from land_selectors import NaverLandSelectors
 
@@ -36,8 +39,8 @@ COMPLEX_NOS = set()  # optional complex_no allow-list
 
 # [System Config]
 MAX_CONCURRENT_PAGES = int(
-    os.getenv("MAX_CONCURRENT_PAGES", 3)
-)  # Configurable via Env Var
+    os.getenv("MAX_CONCURRENT_PAGES", 1)
+)  # Configurable via Env Var (container defaults to serial to reduce resets)
 MAX_API_PREFETCH_CONCURRENCY = int(os.getenv("MAX_API_PREFETCH_CONCURRENCY", 6))
 HEADLESS_MODE = True  # Set to False to watch process
 BASE_DIR = Path(__file__).resolve().parent
@@ -48,6 +51,21 @@ REGION_JSON_PATH = str(
 CRAWLER_LOG_PATH = os.getenv("CRAWLER_LOG_PATH")
 SCREENSHOT_DIR = str(Path(os.getenv("CRAWLER_SCREENSHOT_DIR", BASE_DIR)))
 PRINT_SQL_ONLY = False
+NAVIGATION_TIMEOUT_MS = int(os.getenv("NAVIGATION_TIMEOUT_MS", 90000))
+DETAIL_NAVIGATION_TIMEOUT_MS = int(os.getenv("DETAIL_NAVIGATION_TIMEOUT_MS", 45000))
+PLAYWRIGHT_CHANNEL = os.getenv("PLAYWRIGHT_CHANNEL", "").strip()
+PLAYWRIGHT_HEADLESS_MODE = os.getenv("PLAYWRIGHT_HEADLESS_MODE", "").strip().lower()
+PLAYWRIGHT_PROXY_SERVER = os.getenv("PLAYWRIGHT_PROXY_SERVER", "").strip()
+PLAYWRIGHT_PROXY_USERNAME = os.getenv("PLAYWRIGHT_PROXY_USERNAME", "").strip()
+PLAYWRIGHT_PROXY_PASSWORD = os.getenv("PLAYWRIGHT_PROXY_PASSWORD", "").strip()
+PLAYWRIGHT_EXECUTABLE_PATH = os.getenv("PLAYWRIGHT_EXECUTABLE_PATH", "").strip()
+PLAYWRIGHT_CHROMIUM_SANDBOX = os.getenv("PLAYWRIGHT_CHROMIUM_SANDBOX", "").strip().lower()
+ENABLE_GOTO_NETWORK_DIAG = os.getenv("ENABLE_GOTO_NETWORK_DIAG", "1").strip() in (
+    "1",
+    "true",
+    "yes",
+    "on",
+)
 
 # ==========================================
 
@@ -339,10 +357,125 @@ class NaverLandPlaywright:
             "viewport": {"width": 1280, "height": 720},
             "is_mobile": False,
             "has_touch": False,
+            "locale": "ko-KR",
+            "timezone_id": "Asia/Seoul",
             "extra_http_headers": {
                 "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
             },
         }
+
+    @staticmethod
+    def _safe_name(value: str) -> str:
+        return re.sub(r"[^a-zA-Z0-9._-]+", "_", value)[:120]
+
+    async def _goto_with_retries(
+        self,
+        page,
+        url: str,
+        *,
+        label: str,
+        timeout_ms: int = 45000,
+        max_attempts: int = 3,
+    ):
+        last_error = None
+        waits = ("domcontentloaded", "load")
+
+        for attempt in range(1, max_attempts + 1):
+            for wait_until in waits:
+                try:
+                    response = await page.goto(url, wait_until=wait_until, timeout=timeout_ms)
+                    status = None
+                    if response is not None:
+                        try:
+                            status = response.status
+                        except Exception:
+                            status = None
+                    logging.info(
+                        f"✅ goto success [{label}] attempt={attempt}/{max_attempts} "
+                        f"wait_until={wait_until} status={status} final_url={page.url}"
+                    )
+                    return response
+                except Exception as e:
+                    last_error = e
+                    logging.warning(
+                        f"⚠️ goto failed [{label}] attempt={attempt}/{max_attempts} "
+                        f"wait_until={wait_until} url={url} err={type(e).__name__}: {e}"
+                    )
+
+            if attempt < max_attempts:
+                backoff = [2.0, 5.0, 10.0][min(attempt - 1, 2)]
+                await asyncio.sleep(backoff)
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        screenshot_name = self._safe_name(f"goto_fail_{label}_{timestamp}.png")
+        screenshot_path = self.screenshot_dir / screenshot_name
+        try:
+            await page.screenshot(path=str(screenshot_path), full_page=True)
+            logging.error(f"📸 Saved failure screenshot: {screenshot_path}")
+        except Exception as ss_e:
+            logging.error(f"Failed to save failure screenshot [{label}]: {ss_e}")
+
+        await self._run_network_diag(url=url, label=label)
+
+        raise RuntimeError(
+            f"goto failed after {max_attempts} attempts [{label}] url={url} "
+            f"last_err={type(last_error).__name__ if last_error else 'unknown'}: {last_error}"
+        )
+
+    async def _run_network_diag(self, url: str, label: str):
+        if not ENABLE_GOTO_NETWORK_DIAG:
+            return
+
+        host = ""
+        m = re.match(r"^https?://([^/:?#]+)", url)
+        if m:
+            host = m.group(1)
+
+        if host:
+            try:
+                s = socket.create_connection((host, 443), timeout=8)
+                ctx = ssl.create_default_context()
+                ss = ctx.wrap_socket(s, server_hostname=host)
+                logging.error(
+                    f"[diag:{label}] tls_ok host={host} version={ss.version()} cipher={ss.cipher()}"
+                )
+                ss.close()
+            except Exception as e:
+                logging.error(f"[diag:{label}] tls_fail host={host} err={type(e).__name__}: {e}")
+
+        curl_cmd = [
+            "curl",
+            "-v",
+            "-I",
+            "--http1.1",
+            "--max-time",
+            "20",
+            "--connect-timeout",
+            "8",
+            url,
+        ]
+        try:
+            proc = await asyncio.create_subprocess_exec(
+                *curl_cmd,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            out, err = await proc.communicate()
+            out_s = (out or b"").decode("utf-8", errors="replace")
+            err_s = (err or b"").decode("utf-8", errors="replace")
+            logging.error(
+                f"[diag:{label}] curl_exit={proc.returncode} cmd={shlex.join(curl_cmd)}\n"
+                f"[diag:{label}] curl_stdout:\n{out_s[:2000]}\n"
+                f"[diag:{label}] curl_stderr:\n{err_s[:4000]}"
+            )
+            if proc.returncode == 28:
+                logging.error(
+                    f"[diag:{label}] curl timed out after TLS connect. "
+                    "If this only happens on server/VPS, your egress IP may be blocked/throttled by target. "
+                    "Try setting PLAYWRIGHT_PROXY_SERVER (and optional PLAYWRIGHT_PROXY_USERNAME/PASSWORD)."
+                )
+        except Exception as e:
+            logging.error(f"[diag:{label}] curl_diag_fail err={type(e).__name__}: {e}")
 
     def dump_raw_data(self, output_path):
         ensure_parent_directory(output_path)
@@ -493,14 +626,62 @@ class NaverLandPlaywright:
     ):
         """Main execution with Parallelism"""
         async with async_playwright() as p:
-            browser = await p.chromium.launch(
-                headless=headless,
-                args=[
-                    "--disable-blink-features=AutomationControlled",
-                    "--no-sandbox",
-                    "--disable-setuid-sandbox",
-                ],
+            launch_args = [
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-quic",
+                "--disable-features=UseDnsHttpsSvcb",
+                "--lang=ko-KR",
+            ]
+
+            launch_headless = headless
+            if PLAYWRIGHT_HEADLESS_MODE in ("false", "0", "no", "off", "headed"):
+                launch_headless = False
+            elif PLAYWRIGHT_HEADLESS_MODE in ("true", "1", "yes", "on", "headless"):
+                launch_headless = True
+            elif PLAYWRIGHT_HEADLESS_MODE == "new":
+                launch_headless = True
+                launch_args.append("--headless=new")
+
+            launch_kwargs = {
+                "headless": launch_headless,
+                "args": launch_args,
+            }
+            if PLAYWRIGHT_CHANNEL:
+                launch_kwargs["channel"] = PLAYWRIGHT_CHANNEL
+            if PLAYWRIGHT_EXECUTABLE_PATH:
+                launch_kwargs["executable_path"] = PLAYWRIGHT_EXECUTABLE_PATH
+            if PLAYWRIGHT_CHROMIUM_SANDBOX in ("true", "1", "yes", "on"):
+                launch_kwargs["chromium_sandbox"] = True
+            elif PLAYWRIGHT_CHROMIUM_SANDBOX in ("false", "0", "no", "off"):
+                launch_kwargs["chromium_sandbox"] = False
+            if PLAYWRIGHT_PROXY_SERVER:
+                proxy_cfg = {"server": PLAYWRIGHT_PROXY_SERVER}
+                if PLAYWRIGHT_PROXY_USERNAME:
+                    proxy_cfg["username"] = PLAYWRIGHT_PROXY_USERNAME
+                if PLAYWRIGHT_PROXY_PASSWORD:
+                    proxy_cfg["password"] = PLAYWRIGHT_PROXY_PASSWORD
+                launch_kwargs["proxy"] = proxy_cfg
+
+            logging.info(
+                "Browser launch config: "
+                f"headless={launch_headless} channel={PLAYWRIGHT_CHANNEL or 'chromium-default'} "
+                f"proxy={'on' if PLAYWRIGHT_PROXY_SERVER else 'off'} diag={'on' if ENABLE_GOTO_NETWORK_DIAG else 'off'} "
+                f"executable_path={'set' if PLAYWRIGHT_EXECUTABLE_PATH else 'default'} "
+                f"chromium_sandbox={launch_kwargs.get('chromium_sandbox', 'default')}"
             )
+            try:
+                browser = await p.chromium.launch(**launch_kwargs)
+            except Exception as e:
+                emsg = str(e)
+                if "sandbox_host_linux.cc" in emsg or "TargetClosedError" in emsg:
+                    logging.error(
+                        "Browser launch failed in Linux sandbox/container runtime. "
+                        "If running inside restricted container, allow browser sandbox-related syscalls "
+                        "or run crawler on host with full Playwright dependencies."
+                    )
+                raise
 
             # Semaphore for limiting concurrency
             sem = asyncio.Semaphore(MAX_CONCURRENT_PAGES)
@@ -586,7 +767,13 @@ class NaverLandPlaywright:
         """Logic for processing a single region tab"""
         try:
             # 1. Go to Region
-            await page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
+            await self._goto_with_retries(
+                page,
+                target_url,
+                label=f"region_{dong_name}",
+                timeout_ms=NAVIGATION_TIMEOUT_MS,
+                max_attempts=3,
+            )
 
             # Robust Wait: Wait for API response that loads the list
             try:
@@ -857,8 +1044,13 @@ class NaverLandPlaywright:
 
     async def _visit_detail_page(self, page, url):
         """Helper to visit page and perform scrolling"""
-        # Reduce internal timeout to fail faster
-        await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+        await self._goto_with_retries(
+            page,
+            url,
+            label="detail_page",
+            timeout_ms=DETAIL_NAVIGATION_TIMEOUT_MS,
+            max_attempts=3,
+        )
         await page.wait_for_timeout(random.uniform(500, 1000))
 
         last_height = await page.evaluate("document.body.scrollHeight")
