@@ -271,6 +271,20 @@ def extract_article_direction_str(art):
     return _DIRECTION_LABELS.get(code, code)
 
 
+def parse_region_parts_from_text(region_text):
+    """Parse '시/도 시/군/구 읍/면/동' from free-form region text."""
+    if not isinstance(region_text, str):
+        return "", "", ""
+    parts = [p for p in region_text.strip().split() if p]
+    if len(parts) >= 3:
+        return parts[0], parts[1], parts[2]
+    if len(parts) == 2:
+        return parts[0], parts[1], ""
+    if len(parts) == 1:
+        return parts[0], "", ""
+    return "", "", ""
+
+
 def populate_pyeong_trade_listings(complex_info, flat_articles, allowed_trade_types=None):
     """
     Mutate each pyeong dict: set trade_listings to
@@ -326,6 +340,7 @@ def populate_pyeong_trade_listings(complex_info, flat_articles, allowed_trade_ty
         direction_str = extract_article_direction_str(art)
         listing = {
             "TRADE_TYPES": tt,
+            "평형": matched.get("name") or "",
             "PRICE": pwon,
             "PRICE_TEXT": DataProcessor.format_price_manwon(pwon),
             "층수": floor_str,
@@ -349,6 +364,41 @@ class NaverLandPlaywright:
         self.region_name = ""
         self.screenshot_dir = Path(screenshot_dir or SCREENSHOT_DIR)
         ensure_directory(self.screenshot_dir)
+
+    @staticmethod
+    def _flatten_articles(articles_or_groups):
+        flat_articles = []
+        for item in articles_or_groups or []:
+            if not isinstance(item, dict):
+                continue
+            if "articleInfoList" in item and isinstance(item["articleInfoList"], list):
+                flat_articles.extend(item["articleInfoList"])
+            elif "representativeArticleInfo" in item and isinstance(
+                item["representativeArticleInfo"], dict
+            ):
+                flat_articles.append(item["representativeArticleInfo"])
+            else:
+                flat_articles.append(item)
+        return flat_articles
+
+    def attach_trade_listings_to_pyeongs(self):
+        """Populate each complex.pyeongs[].trade_listings from captured_articles."""
+        for cid, complex_info in self.complexes.items():
+            if not isinstance(complex_info, dict):
+                continue
+            pyeongs = complex_info.get("pyeongs")
+            if not pyeongs:
+                continue
+            articles_or_groups = self.captured_articles.get(str(cid), []) or self.captured_articles.get(
+                cid, []
+            )
+            flat_articles = self._flatten_articles(articles_or_groups)
+            if not flat_articles:
+                for p in pyeongs:
+                    if isinstance(p, dict):
+                        p["trade_listings"] = []
+                continue
+            populate_pyeong_trade_listings(complex_info, flat_articles)
 
     def get_context_options(self):
         ua = random.choice(USER_AGENTS)
@@ -500,6 +550,14 @@ class NaverLandPlaywright:
             addr = complex_info.get("address") or {}
             if not isinstance(addr, dict):
                 addr = {}
+            region1 = addr.get("region1DepthName")
+            region2 = addr.get("region2DepthName")
+            region3 = addr.get("region3DepthName")
+            if not (region1 and region2 and region3):
+                fb1, fb2, fb3 = parse_region_parts_from_text(complex_info.get("_dong_name", ""))
+                region1 = region1 or fb1
+                region2 = region2 or fb2
+                region3 = region3 or fb3
             coords = complex_info.get("coordinates") or {}
             if not isinstance(coords, dict):
                 coords = {}
@@ -521,7 +579,7 @@ class NaverLandPlaywright:
   LATITUDE, LONGITUDE, FIRST_SEEN
 ) VALUES (
   {sql_quote(int(cid))}, {sql_quote(complex_info.get("name"))}, {sql_quote(complex_info.get("complexTypeName"))},
-  {sql_quote(addr.get("region1DepthName"))}, {sql_quote(addr.get("region2DepthName"))}, {sql_quote(addr.get("region3DepthName"))},
+  {sql_quote(region1)}, {sql_quote(region2)}, {sql_quote(region3)},
   {sql_quote(addr.get("roadAddress"))}, {sql_quote(addr.get("jibunAddress"))}, {sql_quote(addr.get("zipCode"))},
   {sql_quote(complex_info.get("totalHouseholdNumber"))}, {sql_quote(complex_info.get("dongCount"))},
   {sql_quote(complex_info.get("useApprovalDate"))}, {sql_quote(complex_info.get("constructionCompany"))},
@@ -564,7 +622,10 @@ class NaverLandPlaywright:
   ENTRANCE_TYPE=VALUES(ENTRANCE_TYPE), HALLWAY_LABEL=VALUES(HALLWAY_LABEL), DEFAULT_DIRECTION=VALUES(DEFAULT_DIRECTION);"""
                 print(pyeong_sql)
 
-            articles = self.captured_articles.get(str(cid), []) or self.captured_articles.get(cid, [])
+            articles_or_groups = self.captured_articles.get(str(cid), []) or self.captured_articles.get(
+                cid, []
+            )
+            articles = self._flatten_articles(articles_or_groups)
             for art in articles:
                 if not isinstance(art, dict):
                     continue
@@ -714,6 +775,9 @@ class NaverLandPlaywright:
                 logging.warning("No URLs to crawl.")
             else:
                 await asyncio.gather(*tasks)
+
+            # Ensure raw payload/SQL paths include per-pyeong listing details.
+            self.attach_trade_listings_to_pyeongs()
 
             if raw_output_path:
                 try:
